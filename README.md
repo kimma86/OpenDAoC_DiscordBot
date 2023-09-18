@@ -1,7 +1,7 @@
 # OpenDAoC_DiscordBot
  a simple discord bot using the OpenDAoC API
 
-availible commands:<br>
+available commands:<br>
 
 /who player <br> 
 Shows player stats <br><br>
