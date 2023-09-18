@@ -1,19 +1,19 @@
 # OpenDAoC_DiscordBot
  a simple discord bot using the OpenDAoC API
 
-availible commands:
+availible commands:<br>
 
-/who <player> 
-Shows player stats
+/who player <br> 
+Shows player stats <br><br>
 
-/top
-Shows top 10 highest ranked players
+/top <br>
+Shows top 10 highest ranked players <br><br>
 
-/stats
-Shows current server stats (online per realm and uptime)
+/stats <br>
+Shows current server stats (online per realm and uptime) <br><br>
 
-/ra <player>
-Shows player realm abilities
+/ra <player> <br>
+Shows player realm abilities<br><br>
 
-/spec <player> 
+/spec <player> <br>
 Shows player specializations
