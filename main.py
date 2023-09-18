@@ -223,7 +223,6 @@ async def ra(ctx, player_name):
         res = json.loads(r.text)
 
         if res:
-            # Extract relevant information from the JSON
             player_info = res[0]
 
             player_class = player_info['class']
@@ -256,7 +255,7 @@ async def ra(ctx, player_name):
 
             await ctx.respond(embed=embed_var)
         else:
-            await ctx.respond(f"Player {player_name} not found or hiding specs.")
+            await ctx.respond(f"Player {player_name} not found or hiding RAs.")
 
     except Exception as e:
         logging.info(f'An error occurred: {e}')
