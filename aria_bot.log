@@ -1,0 +1,101 @@
+2023-09-19 16:55:53,381 [INFO]: logging in using static token
+2023-09-19 16:55:53,874 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 16:55:54,150 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-cgrr",{"micros":156907,"calls":["id_created",{"micros":1369,"calls":[]},"session_lookup_time",{"micros":10796,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-20",{"micros":142635,"calls":["start_session",{"micros":52856,"calls":["discord-api-c78b486b7-9gscm",{"micros":48508,"calls":["get_user",{"micros":17599},"get_guilds",{"micros":4261},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":49,"calls":[]},"presence_started",{"micros":249,"calls":[]},"guilds_started",{"micros":167,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":89275,"calls":[]},"connect_finished",{"micros":89281,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":8,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b7ec24179adc4f7e28fb1499c0ecdd22).
+2023-09-19 16:55:56,197 [INFO]: Bot is ready: herald#7999
+2023-09-19 16:56:15,364 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 16:56:54,226 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 16:56:54,226 [INFO]: Cleaning up tasks.
+2023-09-19 16:56:54,226 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 16:56:54,347 [INFO]: All tasks finished cancelling.
+2023-09-19 16:56:54,347 [INFO]: Closing the event loop.
+2023-09-19 16:56:54,852 [INFO]: logging in using static token
+2023-09-19 16:56:55,374 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 16:56:55,652 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-hdcl",{"micros":155508,"calls":["id_created",{"micros":1845,"calls":[]},"session_lookup_time",{"micros":3097,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-125",{"micros":149001,"calls":["start_session",{"micros":122007,"calls":["discord-api-c78b486b7-798tn",{"micros":115620,"calls":["get_user",{"micros":43457},"get_guilds",{"micros":9882},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":253,"calls":[]},"guilds_started",{"micros":174,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":26482,"calls":[]},"connect_finished",{"micros":26488,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: e763af2631e5e894f49acbb3922f6a9f).
+2023-09-19 16:56:57,650 [INFO]: Bot is ready: herald#7999
+2023-09-19 16:57:14,353 [INFO]: Command used: who cabalist by kimmawh
+2023-09-19 17:09:28,689 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:09:28,689 [INFO]: Cleaning up tasks.
+2023-09-19 17:09:28,690 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:09:28,815 [INFO]: All tasks finished cancelling.
+2023-09-19 17:09:28,815 [INFO]: Closing the event loop.
+2023-09-19 17:09:29,365 [INFO]: logging in using static token
+2023-09-19 17:09:29,894 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:09:30,122 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-n9v8",{"micros":101652,"calls":["id_created",{"micros":1007,"calls":[]},"session_lookup_time",{"micros":260,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-208",{"micros":99781,"calls":["start_session",{"micros":51308,"calls":["discord-api-c78b486b7-5dgvz",{"micros":46471,"calls":["get_user",{"micros":14414},"get_guilds",{"micros":3890},"send_scheduled_deletion_message",{"micros":19},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":322,"calls":[]},"guilds_started",{"micros":134,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":47927,"calls":[]},"connect_finished",{"micros":47932,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: c9c03a265bf58afe4d077564d0d5d495).
+2023-09-19 17:09:32,130 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:09:42,351 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:10:35,011 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:10:35,011 [INFO]: Cleaning up tasks.
+2023-09-19 17:10:35,011 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:10:35,133 [INFO]: All tasks finished cancelling.
+2023-09-19 17:10:35,133 [INFO]: Closing the event loop.
+2023-09-19 17:10:35,665 [INFO]: logging in using static token
+2023-09-19 17:10:36,150 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:10:36,514 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-qk8t",{"micros":244138,"calls":["id_created",{"micros":784,"calls":[]},"session_lookup_time",{"micros":317,"calls":[]},"session_lookup_finished",{"micros":22,"calls":[]},"discord-sessions-prd-2-82",{"micros":242528,"calls":["start_session",{"micros":197835,"calls":["discord-api-c78b486b7-2v5pq",{"micros":179183,"calls":["get_user",{"micros":96116},"get_guilds",{"micros":15204},"send_scheduled_deletion_message",{"micros":15},"guild_join_requests",{"micros":711},"authorized_ip_coro",{"micros":16}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":247,"calls":[]},"guilds_started",{"micros":213,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44142,"calls":[]},"connect_finished",{"micros":44147,"calls":[]},"build_ready",{"micros":25,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: e81ce7bc6499a4343433e1fae57cb488).
+2023-09-19 17:10:38,550 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:10:43,883 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:11:16,902 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:11:16,902 [INFO]: Cleaning up tasks.
+2023-09-19 17:11:16,902 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:11:17,037 [INFO]: All tasks finished cancelling.
+2023-09-19 17:11:17,037 [INFO]: Closing the event loop.
+2023-09-19 17:11:17,537 [INFO]: logging in using static token
+2023-09-19 17:11:18,036 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:11:18,304 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-1jg1",{"micros":145418,"calls":["id_created",{"micros":874,"calls":[]},"session_lookup_time",{"micros":1568,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-2-150",{"micros":142150,"calls":["start_session",{"micros":79242,"calls":["discord-api-c78b486b7-l4k85",{"micros":74186,"calls":["get_user",{"micros":17632},"get_guilds",{"micros":7193},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":279,"calls":[]},"guilds_started",{"micros":128,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":62421,"calls":[]},"connect_finished",{"micros":62425,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 97037902c1398045beffe905b2f69693).
+2023-09-19 17:11:20,325 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:11:27,501 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:14:04,029 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:14:04,029 [INFO]: Cleaning up tasks.
+2023-09-19 17:14:04,029 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:14:04,157 [INFO]: All tasks finished cancelling.
+2023-09-19 17:14:04,157 [INFO]: Closing the event loop.
+2023-09-19 17:14:04,617 [INFO]: logging in using static token
+2023-09-19 17:14:05,061 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:14:05,282 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-6dqv",{"micros":100150,"calls":["id_created",{"micros":2016,"calls":[]},"session_lookup_time",{"micros":354,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-2-44",{"micros":96330,"calls":["start_session",{"micros":53635,"calls":["discord-api-c78b486b7-jxx8h",{"micros":49478,"calls":["get_user",{"micros":14416},"get_guilds",{"micros":6604},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1148},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":66,"calls":[]},"presence_started",{"micros":307,"calls":[]},"guilds_started",{"micros":156,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":42135,"calls":[]},"connect_finished",{"micros":42141,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 88a8a597738420c485ece0300aa6cd2a).
+2023-09-19 17:14:07,330 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:14:12,960 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:14:30,846 [INFO]: Command used: who cabalist by kimmawh
+2023-09-19 17:14:54,911 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:14:54,911 [INFO]: Cleaning up tasks.
+2023-09-19 17:14:54,911 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:14:55,034 [INFO]: All tasks finished cancelling.
+2023-09-19 17:14:55,034 [INFO]: Closing the event loop.
+2023-09-19 17:14:55,614 [INFO]: logging in using static token
+2023-09-19 17:14:56,100 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:14:56,537 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-wt8l",{"micros":313170,"calls":["id_created",{"micros":2346,"calls":[]},"session_lookup_time",{"micros":337,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-2-99",{"micros":309045,"calls":["start_session",{"micros":259322,"calls":["discord-api-c78b486b7-khc6q",{"micros":247471,"calls":["get_user",{"micros":106047},"get_guilds",{"micros":10279},"send_scheduled_deletion_message",{"micros":30},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":260,"calls":[]},"guilds_started",{"micros":159,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":49214,"calls":[]},"connect_finished",{"micros":49220,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b8b40a4086c67aefc1ce02dffda19011).
+2023-09-19 17:14:58,555 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:15:07,402 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:16:13,672 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:16:13,672 [INFO]: Cleaning up tasks.
+2023-09-19 17:16:13,672 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:16:13,793 [INFO]: All tasks finished cancelling.
+2023-09-19 17:16:13,793 [INFO]: Closing the event loop.
+2023-09-19 17:16:14,224 [INFO]: logging in using static token
+2023-09-19 17:16:14,694 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:16:14,942 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-722f",{"micros":119917,"calls":["id_created",{"micros":1123,"calls":[]},"session_lookup_time",{"micros":1382,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-2-117",{"micros":116080,"calls":["start_session",{"micros":63178,"calls":["discord-api-c78b486b7-p77w6",{"micros":59059,"calls":["get_user",{"micros":18530},"get_guilds",{"micros":7404},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":71,"calls":[]},"presence_started",{"micros":275,"calls":[]},"guilds_started",{"micros":135,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":52400,"calls":[]},"connect_finished",{"micros":52404,"calls":[]},"build_ready",{"micros":13,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 935d89b00e000eabe508722fb8d023df).
+2023-09-19 17:16:16,975 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:16:22,621 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:16:45,992 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:16:45,992 [INFO]: Cleaning up tasks.
+2023-09-19 17:16:45,992 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:16:46,115 [INFO]: All tasks finished cancelling.
+2023-09-19 17:16:46,115 [INFO]: Closing the event loop.
+2023-09-19 17:16:46,646 [INFO]: logging in using static token
+2023-09-19 17:16:47,115 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:16:47,348 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-26nc",{"micros":79386,"calls":["id_created",{"micros":939,"calls":[]},"session_lookup_time",{"micros":301,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-220",{"micros":77378,"calls":["start_session",{"micros":64387,"calls":["discord-api-c78b486b7-k76jg",{"micros":60407,"calls":["get_user",{"micros":22043},"get_guilds",{"micros":6315},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":275},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":65,"calls":[]},"presence_started",{"micros":1203,"calls":[]},"guilds_started",{"micros":194,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":11500,"calls":[]},"connect_finished",{"micros":11506,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 6cf111917f456e6c614746b73276984f).
+2023-09-19 17:16:49,373 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:16:53,035 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:19:59,875 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:19:59,875 [INFO]: Cleaning up tasks.
+2023-09-19 17:19:59,875 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:19:59,996 [INFO]: All tasks finished cancelling.
+2023-09-19 17:19:59,996 [INFO]: Closing the event loop.
+2023-09-19 17:20:00,426 [INFO]: logging in using static token
+2023-09-19 17:20:00,899 [INFO]: Shard ID None has sent the IDENTIFY payload.
+2023-09-19 17:20:01,166 [INFO]: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-q7ll",{"micros":145176,"calls":["id_created",{"micros":1586,"calls":[]},"session_lookup_time",{"micros":7094,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-2-144",{"micros":135229,"calls":["start_session",{"micros":119339,"calls":["discord-api-c78b486b7-kwkf5",{"micros":104244,"calls":["get_user",{"micros":31048},"get_guilds",{"micros":12414},"send_scheduled_deletion_message",{"micros":57},"guild_join_requests",{"micros":4133},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":71,"calls":[]},"presence_started",{"micros":327,"calls":[]},"guilds_started",{"micros":190,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15270,"calls":[]},"connect_finished",{"micros":15277,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 121aa6b2c85e036db8034cbee2025248).
+2023-09-19 17:20:03,196 [INFO]: Bot is ready: herald#7999
+2023-09-19 17:20:13,903 [INFO]: Command used: who aeleea by kimmawh
+2023-09-19 17:35:01,009 [INFO]: Received signal to terminate bot and event loop.
+2023-09-19 17:35:01,009 [INFO]: Cleaning up tasks.
+2023-09-19 17:35:01,009 [INFO]: Cleaning up after 1 tasks.
+2023-09-19 17:35:01,129 [INFO]: All tasks finished cancelling.
+2023-09-19 17:35:01,129 [INFO]: Closing the event loop.

@@ -41,16 +41,8 @@ async def who(ctx, player_name):
             player_class = res['class']
             player_rank = res['realmRank']
             player_rank_value = int(player_rank.split('L')[0])
-
-            # TODO: do these three blocks a little more elegantly
-            if player_class in alb:
-                realm = 'alb'
-            elif player_class in hib:
-                realm = 'hib'
-            elif player_class in mid:
-                realm = 'mid'
-            else:
-                realm = 'unknown'  # imposter
+            realm = res['realm']
+            # emoji = ':' + realm[:3].lower() + ':'
 
             # get realm and get the color based on the class
             if player_class in alb:
@@ -62,11 +54,11 @@ async def who(ctx, player_name):
             else:
                 color = 0x808080  # gray
 
-            if realm == 'alb' and player_rank_value in albion_titles:
+            if realm == 'Albion' and player_rank_value in albion_titles:
                 title = albion_titles[player_rank_value]
-            elif realm == 'hib' and player_rank_value in hibernia_titles:
+            elif realm == 'Hibernia' and player_rank_value in hibernia_titles:
                 title = hibernia_titles[player_rank_value]
-            elif realm == 'mid' and player_rank_value in midgard_titles:
+            elif realm == 'Midgard' and player_rank_value in midgard_titles:
                 title = midgard_titles[player_rank_value]
             else:
                 title = 'unknown'  # meh
@@ -75,7 +67,6 @@ async def who(ctx, player_name):
                 title=f"Player Information: {player_name}",
                 color=color
             )
-
             embed_var.add_field(
                 name="Name",
                 value=f"{res['name']} {res['lastname'] or ''}",
@@ -171,7 +162,7 @@ async def stats(ctx):
         hibernia = res['Hibernia']
         midgard = res['Midgard']
         total = res['Total']
-        upptime = res2['uptime']
+        uptime = res2['uptime']
 
         embed_var = discord.Embed(
             title="Realm Statistics",
@@ -200,7 +191,7 @@ async def stats(ctx):
         )
         embed_var.add_field(
             name="Uptime",
-            value=str(upptime),
+            value=str(uptime),
             inline=True
         )
 
