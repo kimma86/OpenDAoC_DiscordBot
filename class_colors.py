@@ -51,3 +51,15 @@ mid = {
     'Spiritmaster': 0x0000FF,
     'Thane': 0x0000FF,
 }
+
+def get_color(realm, player_class):
+    if player_class in alb:
+        color = alb[player_class]
+    elif player_class in hib:
+        color = hib[player_class]
+    elif player_class in mid:
+        color = mid[player_class]
+    else:
+        color = 0x808080  # gray
+
+    return color

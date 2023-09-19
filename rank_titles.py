@@ -42,3 +42,16 @@ midgard_titles = {
     11: "Herra/Fru",
     12: "Baronsfru"
 }
+
+def get_title(realm, player_rank_value):
+
+    if realm == 'Albion' and player_rank_value in albion_titles:
+        title = albion_titles[player_rank_value]
+    elif realm == 'Hibernia' and player_rank_value in hibernia_titles:
+        title = hibernia_titles[player_rank_value]
+    elif realm == 'Midgard' and player_rank_value in midgard_titles:
+        title = midgard_titles[player_rank_value]
+    else:
+        title = 'unknown'  # meh
+
+    return title

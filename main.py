@@ -2,8 +2,8 @@ import discord
 import requests
 import json
 import logging
-from class_colors import alb, hib, mid
-from rank_titles import albion_titles, hibernia_titles, midgard_titles
+from class_colors import get_color
+from rank_titles import get_title
 
 # config -->
 token = "token goes here"
@@ -33,8 +33,12 @@ async def who(ctx, player_name):
     command_name = ctx.command.name
     user_name = ctx.author.name
     logging.info(f'Command used: {command_name} {player_name} by {user_name}')
+    player_name = player_name.capitalize()
+
     try:
         r = requests.get(f"{site}/player/{player_name}")
+        # we could to /getAll here maybe, and then get rank all, rank realm, rank class as well, performance?
+
         if r.status_code == 200:
             res = r.json()
 
@@ -42,26 +46,10 @@ async def who(ctx, player_name):
             player_rank = res['realmRank']
             player_rank_value = int(player_rank.split('L')[0])
             realm = res['realm']
-            # emoji = ':' + realm[:3].lower() + ':'
+            # emoji = ':' + realm[:3].lower() + ':'         # for :hib: :alb: :mid: emoji
 
-            # get realm and get the color based on the class
-            if player_class in alb:
-                color = alb[player_class]
-            elif player_class in hib:
-                color = hib[player_class]
-            elif player_class in mid:
-                color = mid[player_class]
-            else:
-                color = 0x808080  # gray
-
-            if realm == 'Albion' and player_rank_value in albion_titles:
-                title = albion_titles[player_rank_value]
-            elif realm == 'Hibernia' and player_rank_value in hibernia_titles:
-                title = hibernia_titles[player_rank_value]
-            elif realm == 'Midgard' and player_rank_value in midgard_titles:
-                title = midgard_titles[player_rank_value]
-            else:
-                title = 'unknown'  # meh
+            color = get_color(realm, player_class)
+            title = get_title(realm, player_rank_value)
 
             embed_var = discord.Embed(
                 title=f"Player Information: {player_name}",
@@ -137,6 +125,46 @@ async def top(ctx):
                 value=f"Realm Rank: {player_info['realmRank']}"
                       f"\nRP: {player_info['realmPoints']}"
                       f"\nClass: {player_info['class']}",
+                inline=False
+            )
+
+        await ctx.respond(embed=embed_var)
+
+    except Exception as e:
+        logging.info(f'An error occurred: {e}')
+
+
+@bot.slash_command(guild_ids=[guilds], description="Show top 10 by class")
+async def get_class(ctx, player_class):
+    command_name = ctx.command.name
+    user_name = ctx.author.name
+    logging.info(f'Command used: {command_name} by {user_name}')
+    try:
+        r = requests.get(f"{site}/player/getAll")
+        res = json.loads(r.text)
+        player_class = player_class.capitalize()
+
+        filtered_players = sorted([player_info for player_info in res if player_info['class'] == player_class],
+                                  key=lambda x: x['realmPoints'],
+                                  reverse=True)[:10]
+
+        embed_var = discord.Embed(
+            title=f"Top {player_class} players by RPs",
+            color=0x00FF00  # green
+        )
+
+        # top players in the embed
+        for i, player_info in enumerate(filtered_players, start=1):
+            player_rank = player_info['realmRank']
+            player_rank_value = int(player_rank.split('L')[0])
+            realm = player_info['realm']
+            title = get_title(realm, player_rank_value)
+
+            embed_var.add_field(
+                name=f"#{i}: {player_info['name']}",
+                value=f"Realm Rank: {player_info['realmRank']}"
+                      f"\nRP: {player_info['realmPoints']}"
+                      f"\nTitle: {title}",
                 inline=False
             )
 
