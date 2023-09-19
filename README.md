@@ -18,5 +18,5 @@ Shows player realm abilities<br><br>
 /spec player <br>
 Shows player specializations
 
-/get_class class
+/get_class class <br>
 Shows top 10 by class
