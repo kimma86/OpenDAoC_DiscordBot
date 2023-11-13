@@ -4,12 +4,16 @@ import json
 import logging
 from class_colors import get_color
 from rank_titles import get_title
+from rank_rps import get_next_rank
+
+# TODO: Implement get_next_rank function into bot output when theres an api online
 
 # config -->
 token = "token goes here"
 site = "https://example.com/api"
 guilds = 123456789101112134
 # <-- config
+
 
 bot = discord.Bot()
 
@@ -46,10 +50,13 @@ async def who(ctx, player_name):
             player_rank = res['realmRank']
             player_rank_value = int(player_rank.split('L')[0])
             realm = res['realm']
+            rp = res['realmPoints']
             # emoji = ':' + realm[:3].lower() + ':'         # for :hib: :alb: :mid: emoji
 
             color = get_color(realm, player_class)
             title = get_title(realm, player_rank_value)
+            next_rank = get_next_rank(rp)
+
 
             embed_var = discord.Embed(
                 title=f"Player Information: {player_name}",
@@ -87,7 +94,12 @@ async def who(ctx, player_name):
             )
             embed_var.add_field(
                 name="Realm Points",
-                value=res['realmPoints'],
+                value='{:,}'.format(res['realmPoints']),
+                inline=True
+            )
+            embed_var.add_field(
+                name="RP 2 Nxt RL",
+                value='{:,}'.format(next_rank[0]),
                 inline=True
             )
             embed_var.add_field(
@@ -123,7 +135,7 @@ async def top(ctx):
             embed_var.add_field(
                 name=f"#{i}: {player_info['name']}",
                 value=f"Realm Rank: {player_info['realmRank']}"
-                      f"\nRP: {player_info['realmPoints']}"
+                      f"\nRP: {'{:,}'.format(player_info['realmPoints'])}"
                       f"\nClass: {player_info['class']}",
                 inline=False
             )
@@ -163,7 +175,7 @@ async def get_class(ctx, player_class):
             embed_var.add_field(
                 name=f"#{i}: {player_info['name']}",
                 value=f"Realm Rank: {player_info['realmRank']}"
-                      f"\nRP: {player_info['realmPoints']}"
+                      f"\nRP: {'{:,}'.format(player_info['realmPoints'])}"
                       f"\nTitle: {title}",
                 inline=False
             )
